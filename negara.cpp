@@ -7,9 +7,13 @@
 
 class negara{
 private:
-	string nama;
 	string bahasa;
+	string nama;
+	string jenis_pemerintahan;
 	LL jumlah_penduduk;
+public:
+	string get_nama(){return nama;}
+	string get_bahasa(){return bahasa;}
 };
 
 int main()
