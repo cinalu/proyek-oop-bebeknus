@@ -11,3 +11,8 @@ private:
 	string bahasa;
 	LL jumlah_penduduk;
 };
+
+int main()
+{
+	return 0;
+}
